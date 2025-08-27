@@ -11,8 +11,8 @@ variable "name_prefix" {
 }
 
 # NEW: toggle to force updates to null_resource
-variable "stamp" {
-  type    = string
-  default = "v1"
-}
+#variable "stamp" {
+  #type    = string
+  #default = "v1"
+#}
 
