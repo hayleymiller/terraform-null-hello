@@ -1,4 +1,3 @@
-# terraform-null-hello/versions.tf
 terraform {
   required_providers {
     random = {
