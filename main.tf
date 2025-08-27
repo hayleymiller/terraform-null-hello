@@ -3,7 +3,7 @@ resource "random_pet" "name" {
 }
 
 # Safe local resource we can 'tag' via triggers
-resource "null_resource" "hello" {
+resource "null_resource" "hey there" {
   triggers = {
     # <-- our 'tag' the policy will check for
     cost_center = var.cost_center
