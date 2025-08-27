@@ -1,3 +1,9 @@
-# terraform-null-hello/variables.tf
-variable "name_prefix" { type = string }
-variable "cost_center" { type = string }
+variable "name_prefix" {
+  type    = string
+  default = "hello"
+}
+
+variable "cost_center" {
+  type    = string
+  default = "demo"
+}
