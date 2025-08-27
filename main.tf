@@ -6,7 +6,7 @@ resource "random_pet" "name" {
 resource "null_resource" "hey there" {
   triggers = {
     # <-- our 'tag' the policy will check for
-    cost_center = var.cost_center
+    #cost_center = var.cost_center
     name        = random_pet.name.id
   }
 }
